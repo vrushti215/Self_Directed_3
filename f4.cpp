@@ -7,6 +7,6 @@ int main()
 	cout << "Enter 10 integers:" << endl;
 	for (int i = 0; i < 10; i++)
 	{
-
+		cin >> num[i];
 	}
 }
