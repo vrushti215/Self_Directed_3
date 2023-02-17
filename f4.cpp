@@ -1,3 +1,10 @@
+/*
+File Name: f4
+Project: Focused 4
+Date: 2023/02/17
+Student name: Vrushti Shah , Student ID: 8825494
+Description:this is the program that gets integers from the user and determines which is the lowest.
+*/
 #include<iostream>
 using namespace std;
 int main()
@@ -13,4 +20,7 @@ int main()
 			x = i;
 		}
 	}
+	cout << "The lowest value is " << num[x] << " at index " << x << endl;
+
+	return 0;
 }
